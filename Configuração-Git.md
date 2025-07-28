@@ -9,6 +9,7 @@ git config --global user.email "email@exemplo.com"
 ➤ Define o e-mail que será associado aos seus commits.
 
 📁 INICIAR OU CLONAR REPOSITÓRIO
+
 git init
 ➤ Cria um repositório Git vazio na pasta atual.
 ⮕ Útil para começar um projeto do zero.
@@ -18,6 +19,7 @@ git clone <url>
 ⮕ Ex: git clone https://github.com/seuUsuario/repositorio.git
 
 ✅ VERIFICAR STATUS E HISTÓRICO
+
 git status
 ➤ Mostra:
 
@@ -39,6 +41,7 @@ Data
 Mensagem
 
 ➕ ADICIONAR E COMMITAR MUDANÇAS
+
 git add <arquivo>
 ➤ Marca um arquivo para ser incluído no próximo commit.
 
@@ -49,6 +52,7 @@ git commit -m "mensagem"
 ➤ Cria um novo commit com a mensagem informando o que foi feito.
 
 🔄 ENVIAR E RECEBER MUDANÇAS
+
 git push
 ➤ Envia seus commits locais para o repositório remoto (GitHub, por exemplo).
 
@@ -63,6 +67,7 @@ git fetch
 ⮕ Útil para ver o que mudou antes de aplicar.
 
 🌿 BRANCHES (RAMIFICAÇÕES)
+
 git branch
 ➤ Lista todas as branches existentes.
 
@@ -80,6 +85,7 @@ git merge <branch>
 ⮕ Ex: estando em main, git merge dev traz as mudanças da dev para a main.
 
 🧹 DESFAZER MUDANÇAS
+
 git reset <arquivo>
 ➤ Tira o arquivo da área de staging (pré-commit).
 
@@ -90,6 +96,7 @@ git revert <hash>
 ➤ Cria um novo commit que desfaz o commit indicado, sem alterar o histórico.
 
 📦 SALVAR MUDANÇAS TEMPORÁRIAS
+
 git stash
 ➤ Salva modificações temporariamente, para voltar depois.
 ⮕ Útil quando precisa trocar de branch sem perder o que está fazendo.
@@ -98,6 +105,7 @@ git stash pop
 ➤ Recupera as modificações guardadas com stash.
 
 🔗 OUTROS COMANDOS ÚTEIS
+
 git remote -v
 ➤ Mostra os repositórios remotos associados ao projeto.
 
