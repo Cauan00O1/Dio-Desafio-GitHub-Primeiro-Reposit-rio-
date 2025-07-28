@@ -1,4 +1,4 @@
-##CONFIGURAÇÃO INICIAL 🛠️
+CONFIGURAÇÃO INICIAL 🛠️
 
 Esses comandos são usados apenas uma vez, ao configurar o Git no seu computador.
 
