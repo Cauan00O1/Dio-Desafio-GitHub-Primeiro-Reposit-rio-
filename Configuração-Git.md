@@ -1,4 +1,4 @@
-##🛠️ CONFIGURAÇÃO INICIAL
+🛠️ CONFIGURAÇÃO INICIAL
 Esses comandos são usados apenas uma vez, ao configurar o Git no seu computador.
 
 git config --global user.name "Seu Nome"
@@ -7,7 +7,7 @@ git config --global user.name "Seu Nome"
 git config --global user.email "email@exemplo.com"
 ➤ Define o e-mail que será associado aos seus commits.
 
-##📁 INICIAR OU CLONAR REPOSITÓRIO
+📁 INICIAR OU CLONAR REPOSITÓRIO
 git init
 ➤ Cria um repositório Git vazio na pasta atual.
 ⮕ Útil para começar um projeto do zero.
@@ -16,7 +16,7 @@ git clone <url>
 ➤ Copia um repositório remoto (como do GitHub) para sua máquina.
 ⮕ Ex: git clone https://github.com/seuUsuario/repositorio.git
 
-##✅ VERIFICAR STATUS E HISTÓRICO
+✅ VERIFICAR STATUS E HISTÓRICO
 git status
 ➤ Mostra:
 
@@ -37,7 +37,7 @@ Data
 
 Mensagem
 
-##➕ ADICIONAR E COMMITAR MUDANÇAS
+➕ ADICIONAR E COMMITAR MUDANÇAS
 git add <arquivo>
 ➤ Marca um arquivo para ser incluído no próximo commit.
 
@@ -47,7 +47,7 @@ git add .
 git commit -m "mensagem"
 ➤ Cria um novo commit com a mensagem informando o que foi feito.
 
-##🔄 ENVIAR E RECEBER MUDANÇAS
+🔄 ENVIAR E RECEBER MUDANÇAS
 git push
 ➤ Envia seus commits locais para o repositório remoto (GitHub, por exemplo).
 
@@ -61,7 +61,7 @@ git fetch
 ➤ Apenas baixa as atualizações do remoto, sem mesclar.
 ⮕ Útil para ver o que mudou antes de aplicar.
 
-##🌿 BRANCHES (RAMIFICAÇÕES)
+🌿 BRANCHES (RAMIFICAÇÕES)
 git branch
 ➤ Lista todas as branches existentes.
 
@@ -78,7 +78,7 @@ git merge <branch>
 ➤ Mescla a branch informada com a branch atual.
 ⮕ Ex: estando em main, git merge dev traz as mudanças da dev para a main.
 
-##🧹 DESFAZER MUDANÇAS
+🧹 DESFAZER MUDANÇAS
 git reset <arquivo>
 ➤ Tira o arquivo da área de staging (pré-commit).
 
@@ -88,7 +88,7 @@ git checkout -- <arquivo>
 git revert <hash>
 ➤ Cria um novo commit que desfaz o commit indicado, sem alterar o histórico.
 
-##📦 SALVAR MUDANÇAS TEMPORÁRIAS
+📦 SALVAR MUDANÇAS TEMPORÁRIAS
 git stash
 ➤ Salva modificações temporariamente, para voltar depois.
 ⮕ Útil quando precisa trocar de branch sem perder o que está fazendo.
@@ -96,7 +96,7 @@ git stash
 git stash pop
 ➤ Recupera as modificações guardadas com stash.
 
-##🔗 OUTROS COMANDOS ÚTEIS
+🔗 OUTROS COMANDOS ÚTEIS
 git remote -v
 ➤ Mostra os repositórios remotos associados ao projeto.
 
